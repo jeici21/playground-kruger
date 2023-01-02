@@ -1,9 +1,11 @@
+import Age from "../components/Age";
+
 const AgePage = () => {
-    return (
-      <>
-        
-      </>
-    );
-  };
-  
-  export default AgePage;
+  return (
+    <>
+      <Age />
+    </>
+  );
+};
+
+export default AgePage;

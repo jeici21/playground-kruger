@@ -192,3 +192,42 @@ footer {
     font-family: $montserrat;
   }
 }
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+
+  .card-footer {
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+  }
+
+  .card-item {
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    border: solid 1px black;
+    background-color: #484848;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    width: 400px;
+    border: solid 1px black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    background-color: #484848;
+  }
+}
