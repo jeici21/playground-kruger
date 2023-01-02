@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Button, TextField } from "@mui/material";
+import { TextField } from "@mui/material";
 import { LocalizationProvider, DatePicker } from '@mui/x-date-pickers';
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 
@@ -33,18 +33,18 @@ const Age = () => {
         <div className="card-container">
             <div className="card-body">
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
-                    <DatePicker
+                    <DatePicker className="fecha"
                         value={value}
                         onChange={(newValue) => {
                             setValue(newValue.$d);
                             getEdad(newValue.$d);
                         }}
-                        renderInput={(params) => <TextField sx={{ backgroundColor: 'white' }} {...params} />}
+                        renderInput={(params) => <TextField sx={{ backgroundColor: 'transparent' }} {...params} />}
                     />
                 </LocalizationProvider>
-                <Button color="primary" variant="contained">
-                    Calcular
-                </Button>
+                <button className="calculate">
+                    Calculate
+                </button>
             </div>
             <div className="card-footer">
                 <div className="card-item">
