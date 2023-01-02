@@ -1,9 +1,11 @@
+import Clock from "../components/Clock";
+
 const ClockPage = () => {
-    return (
-      <>
-        
-      </>
-    );
-  };
-  
-  export default ClockPage;
+  return (
+    <>
+      <Clock />
+    </>
+  );
+};
+
+export default ClockPage;
