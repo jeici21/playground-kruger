@@ -51,29 +51,27 @@ const IMC = () => {
     return (
         <div className="slider-container">
             <div className="slider-card-body">
-                <Box width={300}>
-                    40kg-180kg
-                    <Slider
+                <Box width={500}>
+                    <Slider className="slider1"
                         step={1}
                         marks
                         min={40}
                         max={180}
                         defaultValue={0}
                         aria-label="Default"
-                        valueLabelDisplay="auto"
+                        valueLabelDisplay="off"
                         onChange={handlePeso}
-                    />
-                    120cm-230cm
-                    <Slider
+                    /><p className="peso">{peso} kg</p>
+                    <Slider className="slider2"
                         step={1}
                         marks
                         min={120}
                         max={230}
                         defaultValue={0}
                         aria-label="Default"
-                        valueLabelDisplay="auto"
+                        valueLabelDisplay="off"
                         onChange={handleTalla}
-                    />
+                    /><p className="talla">{talla} cm</p>
                 </Box>
                 <div className="slider-card-footer">
                     <div>
