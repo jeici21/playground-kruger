@@ -1,3 +1,5 @@
+$montserrat: Montserrat-Regular;
+
 .nav-container {
   border-bottom: 1px solid silver;
   display: flex;
@@ -17,7 +19,7 @@
   position: absolute;
   left: 50%;
   top: 20px;
-  font-family: 'Comfortaa-Regular';
+  font-family: Comfortaa-Regular;
   font-style: normal;
   font-weight: 400;
   font-size: 28.4444px;
@@ -37,7 +39,7 @@
   position: absolute;
   height: 24px;
   top: 60px;
-  font-family: Montserrat-Regular;
+  font-family: $montserrat;
   font-style: normal;
   font-weight: 700;
   font-size: 15px;
@@ -82,47 +84,78 @@
   right: 7%;
 }
 
-h1,
-.body-description {
-  position: absolute;
-  font-family: Montserrat-Regular;
-  font-style: normal;
-  font-weight: 400;
-}
-
-h1 {
-  left: 19.52%;
-  right: 13.5%;
-  top: 36.39%;
-  bottom: 52.7%;
-  font-size: 48px;
-  line-height: 72px;
-  text-align: center;
-  letter-spacing: -0.015em;
-}
-
-.body-description {
-  left: 16.9%;
-  right: 7.95%;
-  top: 52.01%;
-  bottom: 32.84%;
-  font-size: 36px;
-  line-height: 50px;
-  text-align: center;
-  letter-spacing: -0.015em;
-}
-
 footer {
   position: absolute;
   width: 512px;
   height: 13px;
   left: 436px;
   top: 658px;
-  font-family: Montserrat-Regular;
+  font-family: $montserrat;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   text-align: center;
   letter-spacing: -0.015em;
+}
+
+.body-container {
+
+  h1,
+  p {
+    position: absolute;
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  h1 {
+    left: 19.52%;
+    right: 13.5%;
+    top: 36.39%;
+    bottom: 52.7%;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.015em;
+  }
+
+  p {
+    left: 16.9%;
+    right: 7.95%;
+    top: 52.01%;
+    bottom: 32.84%;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.015em;
+  }
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .slider-card-body {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 0.1px;
+    background-color: #D9D9D9;
+    font-family: Inter-Regular;
+  }
+
+  .slider-card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $montserrat;
+  }
 }

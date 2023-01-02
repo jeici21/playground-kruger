@@ -1,11 +1,11 @@
-import './App.css';
+import './App.scss';
 import Navbar from './components/Navbar';
-import HomePage from './pages/Home';
-import IMCPage from './pages/IMC';
-import AgePage from './pages/Age';
-import ClockPage from './pages/Clock';
-import AboutPage from './pages/About';
-import ContactPage from './pages/Contact';
+import HomePage from './pages/Homepage';
+import IMCPage from './pages/IMCpage';
+import AgePage from './pages/Agepage';
+import ClockPage from './pages/Clockpage';
+import AboutPage from './pages/Aboutpage';
+import ContactPage from './pages/Contactpage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 
