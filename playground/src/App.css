@@ -1,0 +1,128 @@
+.nav-container {
+  border-bottom: 1px solid silver;
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-image {
+  position: absolute;
+  width: 82px;
+  height: 80px;
+  left: 45%;
+  top: 9px;
+}
+
+.nav-kruger {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  font-family: 'Comfortaa-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28.4444px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.nav-home,
+.nav-imc,
+.nav-age,
+.nav-clock,
+.nav-about,
+.nav-contact {
+  position: absolute;
+  height: 24px;
+  top: 60px;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-decoration: none;
+  width: auto;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+.nav-clock,
+.nav-about,
+.nav-contact {
+  text-align: right;
+}
+
+.nav-home {
+  left: 10%;
+}
+
+.nav-imc {
+  left: 20%;
+}
+
+.nav-age {
+  left: 33%;
+}
+
+.nav-clock {
+  right: 28%;
+}
+
+.nav-about {
+  right: 17%;
+}
+
+.nav-contact {
+  right: 7%;
+}
+
+h1,
+.body-description {
+  position: absolute;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h1 {
+  left: 19.52%;
+  right: 13.5%;
+  top: 36.39%;
+  bottom: 52.7%;
+  font-size: 48px;
+  line-height: 72px;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.body-description {
+  left: 16.9%;
+  right: 7.95%;
+  top: 52.01%;
+  bottom: 32.84%;
+  font-size: 36px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+footer {
+  position: absolute;
+  width: 512px;
+  height: 13px;
+  left: 436px;
+  top: 658px;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
