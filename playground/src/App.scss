@@ -422,3 +422,101 @@ footer {
     line-height: 30px;
   }
 }
+
+.contact-container {
+  * {
+    font-family: $montserrat;
+  }
+
+  h1,h4{
+    font-style: normal;
+    letter-spacing: -0.015em;
+  }
+
+  h1 {
+    position: absolute;
+    font-weight: 400;
+    left: 16.64%;
+    right: 22.34%;
+    top: 15%;
+    bottom: 68.39%;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 60px;
+
+  }
+
+  form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 622px;
+    height: 384px;
+    left: 324px;
+    top: 228px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .nombre,
+  .apellido,
+  .email,
+  textarea {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .nombre,
+  .apellido {
+    position: absolute;
+    width: 237px;
+    height: 40px;
+    top: 80px;
+  }
+
+  .nombre {
+    left: 318px;
+  }
+
+  .apellido {
+    right: 318px;
+  }
+
+  .email {
+    position: absolute;
+    width: 494px;
+    height: 40px;
+    top: 140px;
+    left: 59px;
+  }
+
+  textarea {
+    position: absolute;
+    width: 494px;
+    height: 97px;
+    left: 59px;
+    top: 200px;
+  }
+
+  button {
+    position: absolute;
+    left: 59px;
+    top: 320px;
+    background: #18A0FB;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  button:hover{
+    background-color: rgb(7, 198, 0);
+    cursor: pointer;
+  }
+}
