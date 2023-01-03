@@ -1,9 +1,11 @@
+import About from "../components/About";
+
 const AboutPage = () => {
-    return (
-      <>
-        
-      </>
-    );
-  };
-  
-  export default AboutPage;
+  return (
+    <>
+      <About />
+    </>
+  );
+};
+
+export default AboutPage;

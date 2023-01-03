@@ -382,3 +382,43 @@ footer {
     animation: second 60s infinite linear;
   }
 }
+
+.about-container {
+  img {
+    position: absolute;
+    left: 8.41%;
+    right: 63.73%;
+    top: 20%;
+    bottom: 8.61%;
+    width: 330px;
+    height: 500px;
+  }
+
+  h1,
+  p {
+    font-family: $montserrat;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+  }
+
+  h1 {
+    left: 37.96%;
+    right: -4.94%;
+    top: 41.1%;
+    bottom: 47.99%;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  p {
+    width: 686px;
+    height: 90px;
+    left: 605px;
+    top: 430px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
