@@ -1,0 +1,522 @@
+$montserrat: Montserrat-Regular;
+$inter: Inter-Regular;
+
+.nav-container {
+  border-bottom: 1px solid silver;
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.nav-image {
+  position: absolute;
+  width: 82px;
+  height: 80px;
+  left: 45%;
+  top: 9px;
+}
+
+.nav-kruger {
+  position: absolute;
+  left: 50%;
+  top: 20px;
+  font-family: Comfortaa-Regular;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28.4444px;
+  line-height: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.nav-home,
+.nav-imc,
+.nav-age,
+.nav-clock,
+.nav-about,
+.nav-contact {
+  position: absolute;
+  height: 24px;
+  top: 60px;
+  font-family: $montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #000000;
+  text-decoration: none;
+  width: auto;
+}
+
+.active {
+  border-bottom: 1px solid black;
+}
+
+.nav-clock,
+.nav-about,
+.nav-contact {
+  text-align: right;
+}
+
+.nav-home {
+  left: 10%;
+}
+
+.nav-imc {
+  left: 20%;
+}
+
+.nav-age {
+  left: 33%;
+}
+
+.nav-clock {
+  right: 28%;
+}
+
+.nav-about {
+  right: 17%;
+}
+
+.nav-contact {
+  right: 7%;
+}
+
+footer {
+  position: absolute;
+  width: 512px;
+  height: 13px;
+  left: 436px;
+  top: 658px;
+  font-family: $montserrat;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+
+.body-container {
+
+  h1,
+  p {
+    position: absolute;
+    font-family: $montserrat;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  h1 {
+    left: 19.52%;
+    right: 13.5%;
+    top: 36.39%;
+    bottom: 52.7%;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    letter-spacing: -0.015em;
+  }
+
+  p {
+    left: 16.9%;
+    right: 7.95%;
+    top: 52.01%;
+    bottom: 32.84%;
+    font-size: 36px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.015em;
+  }
+}
+
+.slider-container {
+  position: absolute;
+  width: 899px;
+  height: 484.86px;
+  left: 221px;
+  margin-top: 20px;
+  background: #D9D9D9;
+  border-radius: 40px;
+  transform: rotate(-0.06deg);
+
+  .slider1,
+  .slider2 {
+    position: absolute;
+    width: 534px;
+    height: 0px;
+    left: 100px;
+  }
+
+  .slider1 {
+    top: 120px;
+  }
+
+  .slider2 {
+    top: 270px;
+  }
+
+  p {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    right: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: $inter;
+  }
+
+  .peso {
+    top: 100px;
+  }
+
+  .talla {
+    top: 250px;
+  }
+
+  .slider-card-footer {
+    position: absolute;
+    width: 497px;
+    height: 114px;
+    left: 200px;
+    top: 370px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    font-family: $montserrat;
+  }
+}
+
+.card-container {
+  position: absolute;
+  width: 943px;
+  height: 199px;
+  left: 221px;
+  margin-top: 20px;
+  background: #494848;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  font-family: $inter;
+
+  .fecha {
+    position: absolute;
+    width: 400px;
+    height: 56px;
+    left: 100px;
+    top: 75px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .calculate {
+    position: absolute;
+    width: 223px;
+    height: 53px;
+    right: 100px;
+    top: 75px;
+    background: #D9D9D9;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+  }
+
+  .card-footer {
+    display: flex;
+    width: 943px;
+    margin-top: 25%;
+    justify-content: space-around;
+  }
+
+  .card-item {
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    border: solid 1px black;
+    background-color: #484848;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.clock-container {
+  background: linear-gradient(90deg, #fe6b8b 30%, #ff8e53 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+
+  .clock {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+    border: 2px solid black;
+  }
+
+  *,
+  *::after,
+  *::before {
+    box-sizing: border-box;
+  }
+
+  .clock .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 1.5rem;
+  }
+
+  .clock .number1 {
+    --rotation: 30deg;
+  }
+
+  .clock .number2 {
+    --rotation: 60deg;
+  }
+
+  .clock .number3 {
+    --rotation: 90deg;
+  }
+
+  .clock .number4 {
+    --rotation: 120deg;
+  }
+
+  .clock .number5 {
+    --rotation: 150deg;
+  }
+
+  .clock .number6 {
+    --rotation: 180deg;
+  }
+
+  .clock .number7 {
+    --rotation: 210deg;
+  }
+
+  .clock .number8 {
+    --rotation: 240deg;
+  }
+
+  .clock .number9 {
+    --rotation: 270deg;
+  }
+
+  .clock .number10 {
+    --rotation: 300deg;
+  }
+
+  .clock .number11 {
+    --rotation: 330deg;
+  }
+
+  .clock .hand {
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 48.5%;
+    background: black;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom center;
+    z-index: 10;
+    transform: translateX(-50%) rotate(calc(var(--rotation) * 1deg));
+  }
+
+  .clock::after {
+    content: '';
+    position: absolute;
+    z-index: 11;
+    width: 15px;
+    height: 15px;
+    background: black;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .clock .hand.second {
+    --rotation: 0;
+    width: 3px;
+    height: 45%;
+    background: red;
+    animation: second 60s infinite linear;
+  }
+
+  .clock .hand.minute {
+    --rotation: 0;
+    width: 7px;
+    height: 40%;
+    background: black;
+    animation: second 60s infinite linear;
+  }
+
+  .clock .hand.hour {
+    --rotation: 0;
+    width: 10px;
+    height: 35%;
+    background: black;
+    animation: second 60s infinite linear;
+  }
+}
+
+.about-container {
+  img {
+    position: absolute;
+    left: 8.41%;
+    right: 63.73%;
+    top: 20%;
+    bottom: 8.61%;
+    width: 330px;
+    height: 500px;
+  }
+
+  h1,
+  p {
+    font-family: $montserrat;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+  }
+
+  h1 {
+    left: 37.96%;
+    right: -4.94%;
+    top: 41.1%;
+    bottom: 47.99%;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  p {
+    width: 686px;
+    height: 90px;
+    left: 605px;
+    top: 430px;
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+.contact-container {
+  * {
+    font-family: $montserrat;
+  }
+
+  h1,h4{
+    font-style: normal;
+    letter-spacing: -0.015em;
+  }
+
+  h1 {
+    position: absolute;
+    font-weight: 400;
+    left: 16.64%;
+    right: 22.34%;
+    top: 15%;
+    bottom: 68.39%;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: 60px;
+
+  }
+
+  form {
+    box-sizing: border-box;
+    position: absolute;
+    width: 622px;
+    height: 384px;
+    left: 324px;
+    top: 228px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .nombre,
+  .apellido,
+  .email,
+  textarea {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .nombre,
+  .apellido {
+    position: absolute;
+    width: 237px;
+    height: 40px;
+    top: 80px;
+  }
+
+  .nombre {
+    left: 318px;
+  }
+
+  .apellido {
+    right: 318px;
+  }
+
+  .email {
+    position: absolute;
+    width: 494px;
+    height: 40px;
+    top: 140px;
+    left: 59px;
+  }
+
+  textarea {
+    position: absolute;
+    width: 494px;
+    height: 97px;
+    left: 59px;
+    top: 200px;
+  }
+
+  button {
+    position: absolute;
+    left: 59px;
+    top: 320px;
+    background: #18A0FB;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  button:hover{
+    background-color: rgb(7, 198, 0);
+    cursor: pointer;
+  }
+}
